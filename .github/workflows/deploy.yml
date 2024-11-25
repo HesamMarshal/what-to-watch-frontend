@@ -32,3 +32,7 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: build/
           server-dir: ${{ secrets.REMOTE_DIR }} # Adjust to your server's React folder
+          protocol: ftps # Use ftps for secure connections
+          mode: active # Enable active mode
+          port: ${{ secrets.FTP_PORT }} # FTP port, e.g., 21 or 22
+          log-level: verbose # Detailed logs for debugging
