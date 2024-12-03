@@ -1,5 +1,5 @@
 // src/services/movies.js
-import axios from "axios";
+// import axios from "axios";
 import API from "./api";
 
 export const fetchTrendingMovies = async () => {
